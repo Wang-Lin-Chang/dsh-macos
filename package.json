@@ -1,0 +1,31 @@
+{
+  "name": "dsh-macos",
+  "version": "0.1.0",
+  "description": "macOS backend for dsh-witness/dsh-anchor: sandbox (uchg immutable flag + sandbox-exec Seatbelt deny view) and process identity utilities. Every claim carries an experiment number.",
+  "type": "module",
+  "main": "src/macos-backend.mjs",
+  "files": [
+    "src/",
+    "test/",
+    "README.md",
+    "LICENSE",
+    "vendor/"
+  ],
+  "scripts": {
+    "test": "node --experimental-strip-types test/witness-final-macos-test.ts"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "macos",
+    "sandbox",
+    "sandbox-exec",
+    "uchg",
+    "cross-platform"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.6"
+  }
+}
